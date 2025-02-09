@@ -1,3 +1,4 @@
+/*
 import React, { useState } from "react";
 
 const Dropzone = ({ onFileDrop }) => {
@@ -40,3 +41,4 @@ const Dropzone = ({ onFileDrop }) => {
   );
 };
 export default Dropzone;
+*/

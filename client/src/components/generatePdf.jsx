@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 
@@ -35,3 +36,4 @@ const GeneratePdf = () => {
 };
 
 export default GeneratePdf;
+*/
