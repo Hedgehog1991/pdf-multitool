@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import * as PDFLib from "pdf-lib";
 import { useDropzone } from "react-dropzone";
 
@@ -130,7 +130,7 @@ function PDFPageExtractor() {
         {isDragActive ? (
           <p>Drop the file here...</p>
         ) : (
-          <p>Drag and drop your PDF file here, or click to select a file.</p>
+          <p>Drag and drop your PDF here, or click to select a file.</p>
         )}
         <p>{downloadInfo}</p>
       </div>
@@ -145,7 +145,7 @@ function PDFPageExtractor() {
         }}
       >
         <p>
-          Enter page ranges, like "1" or "2-" or "1-3,0,4-2"
+          Enter page ranges, like "1" or "2-" or "1-2,0,6-3"
           <br />
           ("0" means a new blank page)
         </p>
