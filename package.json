@@ -1,10 +1,9 @@
 {
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.6",
-    "concurrently": "^9.1.2"
+    "@tailwindcss/vite": "^4.0.6"
+
   },
   "scripts": {
-    "dev": "concurrently npm:dev:client",
     "dev:client": "cd client && npm run dev"
   }
 }
